@@ -13,6 +13,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: Text('Profile User'),
         ),
+        body: Image.asset("images/us.jpg", width: 200, height: 100,),
       ),
     );
   }
